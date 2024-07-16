@@ -3,8 +3,6 @@ from faker import Faker
 import random
 import os
 
-modified_skills = []
-
 letter_mapping = {
     'а': 'а͠',
     'б': 'б̋', 
@@ -85,6 +83,8 @@ skills = [
   "Ледяной выстрел",
   "Огненный заряд"
 ]
+
+modified_skills = []
 
 fake = Faker("ru_RU")
 
